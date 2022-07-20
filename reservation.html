@@ -33,9 +33,9 @@
             <div class="col-half navigation my-auto">
             
                 <nav id="navigation">
-                    <div><a class="active" href="index.html">Home</a></div>
+                    <div><a  href="index.html">Home</a></div>
                     <div><a href="temple.html">Temples</a></div>
-                    <div><a href="reservation.html">Reservation</a></div>
+                    <div><a class="active" href="reservation.html">Reservation</a></div>
                     <div><a href="services.html">Services</a></div>
                 </nav>
                 
@@ -54,51 +54,55 @@
                     <a href="reservations.html" class="button button-action">Make a Reservation!</a>
                 </div>
             </div>
-            
-
-            <div class="temple">
-                <div class="row half-content">
-                    <div class="col-half p-15">
-                        <img class="img" src="images/Full/home-temple.jpg" alt="Temple of Santo Domingo">
-                    </div>
-                    <div class="col-half p-15">
-                        <h2>Santo Domingo Temple</h2>
-                        <p>The Santo Domingo Temple has been a beacon of hope and peace for the people in the Caribbean after being announced on November 16 1997 and having its groundbreaking ceremony on August 18 1996. 
-                            <br> Something interesing about this Temple is that the day before starting construction officially, some politicians that were against the church filed a motion to turn the land in which the temple was to be built on into a historic site. The motion would be filed the next day, so during the night the contractors that The Church had hired demolished the property in site before the motion was filed, making it possible for the temple to be built without any issues with the government.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="hr-40">
-
-            <div class="weather">
+            <div class="contact-us">
                 <div class="row">
-                    <div class="mx-auto current-weather">
-                        
-                        <h2>Santo Domingo Weather</h2>
-                        <img src="images/weather.png" alt="Weather status image" class="spotlight-img" id="status-img">
-                        <span class="temperature" id="temp">33°C</span>
-                        <hr>
-                        <p id="status">Partly Cloudy</p>
-                
-                        <div class="row">
-                            <div class="col-half">
-                                <p>Wind Speed:</p>
-                                <p>Wind Chill:</p>
-                            </div>
-                            <div class="col-half">
-                                <p id="wind-speed">6.5 km/h</p>
-                                <p id="wind-chill">N/A</p>
-                            </div>
+                    <h2 class="mx-auto">Reservation</h2>
+                    
+                </div>
+                <hr class="accommodations-hr">
+
+                <div class="row ">
+                   <div class="contact-form mx-auto">
+                    <form method="GET" action="thankyou.html">
+                        <div class="input-group">
+                            <label for="name">Name: <span class="required">*</span></label>
+                            <input  type="text" name="name" id="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email: <span class="required">*</span></label>
+                            <input type="email" name="email" id="email" placeholder="example@test.com" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="phone">Cell Phone: </label>
+                            <input type="tel" name="phone" id="phone" >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="date">From: (Date)<span class="required">*</span></label>
+                            <input type="date" name="date" id="date" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="date2">To: (Date)<span class="required">*</span></label>
+                            <input type="date" name="date2" id="date2" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Additional Message: <span class="required">*</span></label>
+                            <textarea rows="4" name="message" id="message" required></textarea>
+                        </div>
+
+                        <input id="get-today" type="hidden" onload="getToday()">
+
+                        <div class="input-group">
+                            <button type="submit" class="submit-btn">Submit</button>
                         </div>
                         
-                    
-                
-                    </div>
+                    </form>
+                   </div>
                 </div>
+                
             </div>
-            
     </main>
 
     <footer class="container ">
@@ -129,7 +133,6 @@
         </div>
     </footer>
   
-    <script src="scripts/weather.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

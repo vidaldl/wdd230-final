@@ -256,6 +256,10 @@ footer {
     margin-bottom: 0px;
 }
 
+.footer-logo {
+    align-items: center;
+    
+}
 
 .face {
     width: 30px;
@@ -265,9 +269,106 @@ footer {
     width: 30px;
 }
 
+
+.contact-us {
+    background-color: #DFE6E9;
+    margin-bottom: 30px;
+}
+
+/* FORMS  */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form {
+	margin-bottom: 10px;
+	border: 3px solid #36454f;
+	padding: 10px;
+	border-radius: 10px;
+    background-color: white;
+    width: 50%;
+}
+
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.input-group label {
+	margin-bottom: 5px;
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left
+
+}
+.input-group label .required{
+	color: red;
+}
+
+.input-group input {
+	display: block;
+
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.input-group select {
+	display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.input-group .submit-btn {
+	font-size: 25px;
+	text-decoration: none;
+	background-color: #4BB543;
+	border: 1px solid #2C3A47;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 10px;
+	color: white;
+}
+
+.input-group input {
+	display: block;
+
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
 /* LAYOUT */
 
-h2, h3, p {
+h1 {
+    font-family: 'Amatic SC', 'Times New Roman', Times, serif;
+    font-size: 52px;
+    font-style: italic;
+}
+
+h2, h3, p, li {
     font-family: 'Ibarra Real Nova', 'Times New Roman', Times, serif;
 }
 
@@ -275,7 +376,7 @@ h2 {
     font-size: 28px;
 }
 
-p {
+p, li {
     color: #777;
 }
 
@@ -392,6 +493,25 @@ p {
     .navigation {
         display: block;
     }
+
+
+
+    .col-half {
+        max-width: 50%;
+    }
+   
+    .col-third {
+        max-width: 33.33%;
+        display: block!important;
+        
+    }
+    
+    .half-content {
+        
+        display: flex;
+        flex-direction: row!important;
+        
+    }
 }
 
 @media (min-width: 992px) {
@@ -420,7 +540,7 @@ p {
 }
 
 
-.col-quarter,  .col-third,  .col-half,  .col-full, .nav-logo-col {
+.col-quarter, .col-half-content,  .col-third,  .col-half,  .col-full, .nav-logo-col {
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -433,13 +553,28 @@ p {
     max-width: 25%;
 }
 
+
+
 .col-third {
-    max-width: 33.33%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 
 .col-half {
-    max-width: 50%;
+    max-width: 90%;
+    
+}
+
+.half-content {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.j-center {
+    justify-content: center;
 }
 
 .col-full {

@@ -1,0 +1,190 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Temple Inn Suites | Home</title>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header class="container">
+        <div class="row header-navigation">
+            <div class="nav-logo-col">
+                <img class="header-logo" src="images/logo.png" alt="Temple Inn Logo">
+                <div  id="hamburger-nav">
+                    <span class="m-15" id="open-nav" onclick="openNav()">&#9776;</span>
+                    <div id="nav">
+                        <span id="close-nav" onclick="closeNav()">X</span>
+                        <div><a href="index.html">Home</a></div>
+                        <div><a href="temple.html">Temples</a></div>
+                        <div><a href="reservation.html">Reservation</a></div>
+                        <div><a href="services.html">Services</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-half navigation my-auto">
+            
+                <nav id="navigation">
+                    <div><a  href="index.html">Home</a></div>
+                    <div><a href="temple.html">Temples</a></div>
+                    <div><a href="reservation.html">Reservation</a></div>
+                    <div><a class="active" href="services.html">Services</a></div>
+                </nav>
+                
+            </div>
+        </div>
+          
+    </header>
+        
+    <main class="container">
+            <div class="jumbo">
+                <img class="jumbo-bg" src="images/Full/missionary-jumbo.jpg" alt="Image of Temple">
+                <div class="container text-white">
+                    <h2>Special Offer Suites for Missionaries </h2>
+                </div>
+            </div>
+           
+
+            <div class="temple">
+                <div class="row half-content">
+                    <div class="col-half p-15">
+                        <img class="img" src="images/Full/missionary-king.jpg" alt="California King Suite">
+                    </div>
+                    <div class="col-half p-15">
+                        <h2>California King Suite</h2>
+                        <p>Enjoy all of our premium amenities while keeping a spiritual ambiance.</p>
+                        <ul>
+                            <li>California King Bed</li>
+                            <li>TV</li>
+                            <li>Desk</li>
+                            <li>Full size Fridge</li>
+                            <li>Two sink bathroom</li>
+                            <li>Private Kitchen</li>
+                            <li>Scheduled driver for Temple</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr-40">
+
+            <div class="temple">
+                <div class="row half-content">
+                    <div class="col-half p-15">
+                        <h2>Kink Suite</h2>
+                        <p>Everything good we offer, but cheaper!</p>
+                        <ul>
+                            <li>King size bed</li>
+                            <li>Full sized Fridge</li>
+                            <li>TV</li>
+                            <li>Desk</li>
+                            <li>Access to kitchen Facilities</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-half p-15">
+                        <img class="img" src="images/Full/missionary.jpg" alt="King Suite Picture">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr-40">
+
+            <div class="temple">
+                <div class="row half-content">
+                    <div class="col-half p-15">
+                        <img class="img" src="images/Full/missionary-twin.jpg" alt="Twin Suite Picture">
+                    </div>
+                    <div class="col-half p-15">
+                        <h2>Twin Suite</h2>
+                        <p>Keep it simple while keeping it affordable.</p>
+                        <ul>
+                            <li>Two Premium Twin Beds</li>
+                            <li>TV</li>
+                            <li>Desk</li>
+                            <li>Mini Fridge</li>
+                            <li>Two sink bathroom</li>
+                            <li>Shuttle Availability Priority</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h2 class="mx-auto">Get in touch!</h2>
+                
+            </div>
+
+            
+
+            <div class="row">
+                <div class="contact-form mx-auto">
+                    <form method="GET" action="thankyou.html">
+                        <div class="input-group">
+                            <label for="name">Name: <span class="required">*</span></label>
+                            <input  type="text" name="name" id="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email: <span class="required">*</span></label>
+                            <input type="email" name="email" id="email" placeholder="example@test.com" required>
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="message">Message: <span class="required">*</span></label>
+                            <textarea rows="4" name="message" id="message" required></textarea>
+                        </div>
+
+                        <input id="get-today" type="hidden" onload="getToday()">
+
+                        <div class="input-group">
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </div>
+                        
+                    </form> 
+                </div>
+            </div>
+
+    </main>
+
+    <footer class="container ">
+        <div class="row half-content">
+                <div class="col-third ">
+                    <img class="img footer-logo my-auto" src="images/logo.png" alt="Logo">
+
+                </div>
+            
+            <div class="col-third j-center">
+                <p class="color-white">&copy; 2022 | Leo Vidal | WDD 230</p>
+                <p class="color-white">Temple Inn <a class="color-white" href="https://goo.gl/maps/F9cnTq7uvevVJcbN6">Location</a></p>
+            </div>
+            <div class="col-third social my-auto">
+                <div class="row j-center">
+                    
+                    <a class="mr-15" href="https://facebook.com">
+                        <img class="img face" src="images/facebook.png" alt="Facebook link logo">
+                    </a>
+                
+                
+                    <a href="https://instagram.com">
+                        <img class="img insta" src="images/instagram.png" alt="Instagram link logo">
+                    </a>  
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="scripts/main.js"></script>
+</body>
+</html>

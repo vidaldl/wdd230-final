@@ -1,0 +1,142 @@
+[
+    {
+        "temple_name": "Provo City Center Temple",
+        "temple_image": "images/temples/provo.jpg",
+        "temple_address": "50 South University Ave Provo UT 84601 United States",
+        "temple_number": "(1) 801-343-2700",
+        "temple_services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "temple_closures": [
+            {
+                "year": "2022",
+                "closures": [
+                    "Saturday, 1 October 2022",
+                    "Monday, 19 June 2023 - Tuesday, 4 July 2023",
+                    "Thursday, 24 November 2022",
+                    "Monday, 28 November 2022 - Monday, 12 December 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                ]
+            },
+            {
+                "year":"2023",
+                "closures": [
+                    "Saturday, 1 April 2023",
+                    "Monday, 19 June 2023 - Tuesday, 4 July 2023",
+                    "Saturday, 7 October 2023",
+                    "Wednesday, 22 November 2023 (Limited Operations)",
+                    "Thursday, 23 November 2023",
+                    "Monday, 27 November 2023 - Monday, 11 December 2023",
+                    "Saturday, 23 December 2023 (Limited Operations)",
+                    "Saturday, 30 December 2023 (Limited Operations)"
+                ]
+            },
+            
+            {
+                "year":"2024",
+                "closures": [
+                    "Saturday, 6 April 2024"
+                ]
+            }
+            
+            
+        ]
+
+    },
+    {
+        "temple_name": "Ogden Utah Temple",
+        "temple_image": "images/temples/ogden.png",
+        "temple_address": "350 22nd St Ogden UT 84401-1487 United States",
+        "temple_number": "(1) 801-621-6880",
+        "temple_services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "temple_closures": [
+            {
+                "year": "2022",
+                "closures": [
+                    "Monday, 29 August 2022 - Monday, 12 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Wednesday, 23 November 2022 (Limited Operations)",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022 (Limited Operations)",
+                    "Saturday, 31 December 2022"
+                ]
+            },
+            {
+                "year":"2023",
+                "closures": [
+                    "Monday, 27 March 2023 - Monday, 10 April 2023",
+                    "Saturday, 20 May 2023 (Limited Operations)",
+                    "Tuesday, 4 July 2023",
+                    "Monday, 28 August 2023 - Monday, 11 September 2023",
+                    "Saturday, 7 October 2023",
+                    "Tuesday, 31 October 2023 (Limited Operations)",
+                    "Thursday, 23 November 2023 (Limited Operations)",
+                    "Friday, 24 November 2023"
+                ]
+            }
+            
+            
+        ]
+
+    },
+    {
+        "temple_name": "Orlando Florida Temple",
+        "temple_image": "images/temples/orlando.jpeg",
+        "temple_address": "9000 Windy Ridge Rd, Windermere FL 34786-8347, United States, Telephone",
+        "temple_number": "(1) 407-876-0022",
+        "temple_services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "temple_closures": [
+            {
+                "year": "2022",
+                "closures": [
+                    "Sunday, 28 August 2022 - Monday, 19 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                ]
+            },
+            {
+                "year":"2023",
+                "closures": [
+                    "Saturday, 7 October 2023",
+                    "Wednesday, 22 November 2023 (Limited Operations)",
+                    "Thursday, 23 November 2023",
+                    "Saturday, 23 December 2023 - Monday, 25 December 2023"
+                ]
+            }
+            
+            
+        ]
+
+    },
+    {
+        "temple_name": "Palmyra New York Temple",
+        "temple_image": "images/temples/palmyra.jpeg",
+        "temple_address": "2720 Temple Rd Palmyra NY 14522-9573 United States",
+        "temple_number": "(1) 315-597-6001",
+        "temple_services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "temple_closures": [
+            {
+                "year": "2022",
+                "closures": [
+                    "Monday, 12 September 2022 - Monday, 26 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                ]
+            },
+            {
+                "year":"2023",
+                "closures": [
+                    "Monday, 13 March 2023 - Monday, 27 March 2023",
+                    "Monday, 11 September 2023 - Monday, 25 September 2023"
+                ]
+            }
+            
+            
+        ]
+
+    }
+]
