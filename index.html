@@ -1,0 +1,171 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header class="container">
+        <div class="row header-navigation">
+            <div class="nav-logo-col">
+                <img class="header-logo" src="images/logo.png" alt="Temple Inn Logo">
+                <div  id="hamburger-nav">
+                    <span class="m-15" id="open-nav" onclick="openNav()">&#9776;</span>
+                    <div id="nav">
+                        <span id="close-nav" onclick="closeNav()">X</span>
+                        <div><a href="index.html">Home</a></div>
+                        <div><a href="discover.html">Temple</a></div>
+                        <div><a href="join.html">Reservation</a></div>
+                        <div><a href="directory.html">Services</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-half navigation my-auto">
+            
+                <nav id="navigation">
+                    <div><a href="index.html">Home</a></div>
+                    <div><a href="discover.html">Temple</a></div>
+                    <div><a href="join.html">Reservation</a></div>
+                    <div><a href="directory.html">Services</a></div>
+                </nav>
+                
+            </div>
+        </div>
+          
+    </header>
+        
+    <main class="container">
+            <div class="jumbo">
+                <img class="jumbo-bg" src="images/Full/jumbo.jpg" alt="Image of Temple">
+                <div class="container text-white">
+                    <h2>Your temple experience <br>Our pleasure to keep it spiritual</h2>
+                    
+
+                    <a href="#" class="button button-action">Make a Reservation!</a>
+                </div>
+            </div>
+            <div class="accommodations">
+                <div class="row">
+                    <h2 class="mx-auto">Accommodations</h2>
+                    
+                </div>
+                <hr class="accommodations-hr">
+                <div class="row amenities" >
+                    
+                    <div class="col-third text-center">
+                        <h3 class="lead">Breakfast</h3>
+                        <p>Every day complementary breakfast, so you can get on to serve!</p>
+                    </div>
+                    <div class="col-third text-center">
+                        <h3>Exercise Room</h3>
+                        <p>Never miss a day on your routine while staying at Temple Inn!</p>
+                    </div>
+                    <div class="col-third text-center">
+                        <h3>Indoor Pool</h3>
+                        <p>For when you need to relax, visit our Indoor pool and Sauna</p>
+                    </div>
+                    
+                </div>
+                <div class="row amenities" >
+                    
+                    <div class="col-third text-center">
+                        <h3>WiFi</h3>
+                        <p>Garanteed High Speed WiFi as well as smart TV's on all our rooms</p>
+                    </div>
+                    <div class="col-third text-center">
+                        <h3>Temple Shuttle</h3>
+                        <p>Never worry about getting there, hour temple shuttle leaves every two hours (or when scheduled) to the nearest temple!</p>
+                    </div>
+                    <div class="col-third text-center">
+                        <h3>Parking</h3>
+                        <p>We offer free parking to all out guests.</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="temple">
+                <div class="row">
+                    <div class="col-half p-15">
+                        <img class="img" src="images/Full/home-temple.jpg" alt="Temple of Santo Domingo">
+                    </div>
+                    <div class="col-half p-15">
+                        <h2>Santo Domingo Temple</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi id minus pariatur in rerum voluptates alias provident consequuntur ad quo dignissimos aliquid, ipsum sint nam, voluptatum dolor inventore quidem. Pariatur.</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr-40">
+
+            <div class="weather">
+                <div class="row">
+                    <div class="mx-auto current-weather">
+                        
+                        <h2>Santo Domingo Weather</h2>
+                        <img src="images/weather.png" alt="Weather status image" class="spotlight-img" id="status-img">
+                        <span class="temperature" id="temp">33°C</span>
+                        <hr>
+                        <p id="status">Partly Cloudy</p>
+                
+                        <div class="row">
+                            <div class="col-half">
+                                <p>Wind Speed:</p>
+                                <p>Wind Chill:</p>
+                            </div>
+                            <div class="col-half">
+                                <p id="wind-speed">6.5 km/h</p>
+                                <p id="wind-chill">N/A</p>
+                            </div>
+                        </div>
+                        
+                    
+                
+                    </div>
+                </div>
+            </div>
+            
+    </main>
+
+    <footer class="container ">
+        <div class="row">
+            
+                <img class="col-third footer-logo" src="images/logo.png" alt="Logo">
+            
+            <div class="col-third my-auto ">
+                <p class="color-white">&copy; 2022 | Leo Vidal | WDD 230</p>
+                <p class="color-white">Temple Inn <a class="color-white" href="https://goo.gl/maps/Gaz8DJWFH7NTrnvJ6">Location</a></p>
+            </div>
+            <div class="col-third social my-auto">
+                <div class="row ">
+                    
+                    <a class="mr-15" href="https://facebook.com">
+                        <img class="img face" src="images/facebook.png" alt="Facebook link logo">
+                    </a>
+                
+                
+                    <a href="https://instagram.com">
+                        <img class="img insta" src="images/instagram.png" alt="Instagram link logo">
+                    </a>  
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+body {
+    /* background-color: #DFE6E9; */
+}
+header {
+   margin-bottom: 5px;
+}
+
+.header-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+
+
+
+/*NAVIGATION*/
+
+/* ------------HAMBERGUER MENU BEGIN------------ */
+
+#hamburger-nav {
+    background-color: #2D3436;
+}
+
+#close-nav {
+	color: white;
+	cursor:pointer;
+	font-size: 30px;
+	transition: 0.5s;
+	top: 5px;
+	margin-left: 15px;
+	
+	
+}
+
+#open-nav {
+	cursor:pointer;
+	font-size: 30px;
+	transition: 0.5s;
+    margin-left: 10px;
+    color: white;
+}
+
+
+#nav {
+	height: 100%; /* 100% Full-height */
+	width: 0; 
+	position: fixed; /* Stay in place */
+	z-index: 12; /* Stay on top */
+	top: 0; /* Stay at the top */
+  	left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	background-color: #2D3436;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+#nav a:hover {
+	background-color: #DFE6E9;
+	color: #F98533;
+}
+
+/* ------------HAMBERGUER MENU END------------ */
+
+/* ------------MENU BEGIN------------ */
+
+#navigation {
+	display: none;
+}
+
+nav {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    color: #2D3436;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #F98533;
+    
+}
+
+nav .active {
+    color: #803703;
+    border-top: 2px solid #803703;
+}
+
+.nav-logo-col {
+    max-width: 100%;
+}
+
+.navigation {
+    display: none;
+}
+
+
+
+/* ------------MENU END------------ */
+
+/* ------------Jumbo Start------------ */
+
+.jumbo {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    width: 100%;
+    height: 400px;
+}
+
+.jumbo-bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.5;
+  }
+
+  .jumbo .container {
+    
+    margin-top: 100px;
+    color: white;
+    z-index: 2;
+    position: relative;
+  }
+
+
+/* ------------Jumbo END------------ */
+
+
+.button {
+    font-size: 24px;
+    padding: 6px 12px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.button:hover {
+    color: #333;
+    text-decoration: none;
+}
+.button:active {
+    outline: 0;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.button-action {
+    color: white;
+    background-color: #FA8532;
+    border-color: #B35F24;
+}
+
+.button-action:hover {
+    color: white;
+    background-color: #B35F24;
+    border-color: #B35F24;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.accommodations {
+    background-color: #DFE6E9;
+    margin-bottom: 30px;
+}
+
+.amenities {
+    padding: 15px;
+}
+
+.amenities .col-third h3 {
+    color: #803703;
+}
+
+.amenities .col-third p {
+    margin: 0;
+}
+
+.accommodations-hr {
+    width: 40%;
+    margin-top: 0!important;
+}
+
+.temple {
+    margin-top: 15px;
+}
+
+.current-weather {
+    border: 3px solid #803703;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.current-weather img{
+    width: 85px;
+    
+}
+
+.spotlight-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature, #status
+ {
+    font-size: 18px;
+    font-family: 'Ibarra Real Nova', 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.weather {
+}
+
+footer {
+    background-color: #2D3436;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+.face {
+    width: 30px;
+}
+
+.insta {
+    width: 30px;
+}
+
+/* LAYOUT */
+
+h2, h3, p {
+    font-family: 'Ibarra Real Nova', 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    color: #777;
+}
+
+.color-white {
+    color: white!important;
+}
+
+.lead {
+    color: rgb(33, 37, 41);
+}
+
+.hr-40 {
+    width: 70%;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.visible {
+    visibility: visible !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 476px) {
+    .container {
+        max-width: 440px;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    #hamburger-nav {
+        display: none;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    .nav-logo-col {
+        max-width: 50%;
+    }
+
+    .header-navigation {
+        border-bottom: 2px solid #2D3436;
+    }
+    .navigation {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+    }
+}
+
+
+.container-full {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-quarter,  .col-third,  .col-half,  .col-full, .nav-logo-col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.col-quarter {
+    max-width: 25%;
+}
+
+.col-third {
+    max-width: 33.33%;
+}
+
+
+.col-half {
+    max-width: 50%;
+}
+
+.col-full {
+    max-width: 100%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
